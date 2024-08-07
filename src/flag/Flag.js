@@ -8,6 +8,7 @@ export default function Flag() {
   const off = () => {
     changeState('Offline');
   };
+
   return (
     <div className="flag">
       <h2>I'm {currentSate}</h2>
