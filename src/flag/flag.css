@@ -1,0 +1,18 @@
+.flag {
+  text-align: center;
+  margin: 50px auto;
+}
+.btn {
+  padding: 14px 16px;
+  border: transparent;
+  color: #fff;
+  margin: 20px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.on {
+  background-color: #18978f;
+}
+.off {
+  background-color: #eb4747;
+}
