@@ -3,6 +3,8 @@ import Counter from './counter/Counter';
 import Flag from './flag/Flag';
 import FlagBoolean from './flag/FlagBoolean';
 import UserDetails from './Props/UserDetails';
+import ToDoList from './todolist/ToDoList';
+import UserList from './userprofile/UserList';
 import UserProfile from './userprofile/UserProfile';
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
       {/* <Counter></Counter> */}
       {/* <Flag></Flag> */}
       {/* <FlagBoolean></FlagBoolean> */}
-      <UserProfile></UserProfile>
+      {/* <UserProfile></UserProfile> */}
+      {/* <ToDoList></ToDoList> */}
+      <UserList></UserList>
     </div>
   );
 }
